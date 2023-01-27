@@ -1909,6 +1909,7 @@ compose:
 git add .
 git commit -m 'added ansible dynamic inventory files for dev environment'
 git push
+
 ```
 
 - Configure `test-creating-qa-automation-infrastructure` job and replace the existing script with the one below in order to check the Ansible dynamic inventory for `dev` environment. (Click `Configure`)
